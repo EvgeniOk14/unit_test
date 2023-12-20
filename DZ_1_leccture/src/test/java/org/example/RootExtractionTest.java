@@ -9,6 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat; // Импортиру�
 
 class RootExtractionTest
 {
+    /** использование метода assert **/
     @Test
     void sqrtOfNumber1()
     {
@@ -28,6 +29,7 @@ class RootExtractionTest
         });
     }
 
+    /** использование метода assertj **/
     @Test
     void sqrtOfNumber2() {
         // Пограничный случай: извлечение корня из 0 должно быть равно 0
